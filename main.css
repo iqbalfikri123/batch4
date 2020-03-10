@@ -1,0 +1,85 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    /* border: 1px solid red; */
+}
+.brand{
+    flex: 1;
+    color: #f2d785;
+    background-color: transparent;
+    /* border: 1px solid blue; */
+    padding: 0px 30px;
+}
+.menu{
+    flex: 1;
+    display: flex;
+    background-color: transparent;
+    /* align-items: cen0ter; */
+    /* justify-content: center; */
+    /* border: 1px solid green; */
+}
+.home{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.about{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.gallery{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.contact{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.hero{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/733174/pexels-photo-733174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: 1px solid blue; */
+}
+.judul{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+}
+span{
+    font-size: 48px;
+}
+p{
+    font-size: 18px;
+    margin: 20px 30px;
+}
